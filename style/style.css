@@ -37,7 +37,7 @@ nav {
      border-radius: 1rem 0rem;
      margin-left: -50px;
      opacity: 0;
-     list-style-image:url(/img/telegram\ \(1\).png);
+     
 
      
  }
@@ -85,7 +85,7 @@ nav {
 }
 
 #banner {
-    background-image: url(/img/3.jpg);
+    background-image: url(/webino/img/3.jpg);
     height: 618px;
     background-repeat: no-repeat;
     border-radius: 2rem;
