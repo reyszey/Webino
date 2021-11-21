@@ -6,31 +6,9 @@
 
 body {
     background-color: #FF3CAC;
-background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%)
-/* background-repeat: no-repeat; */
-/* background-size: 300% 300%; */
-/* animation: gradient 7s ease infinite; */
-/* height: 100vh; */
+background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
 }
 
-/* animation background  */
-/* 
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-        
-    }
-
-    50% {
-        background-position: 100% 50%;
-
-    }
-
-    100% {
-        background-position: 0% 50%;
-
-    }
-} */
 @font-face {
     font-family: lalezar;
     src: url(/font/Lalezar-Regular.ttf);
@@ -228,10 +206,17 @@ footer p{
     background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
 }
 
+#blob p {
+    font-family: 'sahel';
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 0% 10% 10% 10%;
+}
+
 .blobs1 {
     border-radius: 73% 27% 79% 21% / 57% 54% 46% 43%   ;
     width: 360px;
-    height: 360px;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -245,8 +230,8 @@ footer p{
     text-align: center;
 }
 .blobs1 img{
-    width: 175px;
-    padding-top: 51px;
+    width: 60%;
+    /* padding-top: 51px; */
 }
 
 .blobs2 {
@@ -255,7 +240,7 @@ footer p{
 
 
     width: 360px;
-    height: 360px;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -265,11 +250,10 @@ footer p{
 .blobs2 p{
     font-family: 'sahel';
     color: black;
-    /* align-items: center; */
     text-align: center;
 }
 .blobs2 img{
-    width: 225px;
+    width: 65%;
 }
 
 .blobs3 {
@@ -277,7 +261,7 @@ footer p{
     
 
     width: 360px;
-    height: 360px;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -289,8 +273,10 @@ footer p{
     color: black;
     /* align-items: center; */
     text-align: center;
+    /* padding-left: 28px;
+    padding-bottom: 28px; */
 }
 .blobs3 img{
-    width: 210px;
+    width: 60%;
     padding-top: 23px;
 }
