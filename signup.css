@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body {
+
+    font-family: 'sahel';
+    background: #f857a6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ff5858, #f857a6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ff5858, #f857a6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    height: 100vh;
+}
+
+.box {
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #191919;
+    text-align: center;
+    border-radius: 2rem;
+}
+
+.box h1{
+    font-family: 'lalezar';
+    color: white;
+
+}
+
+.box input[type="text"], .box input[type="email"], .box input[type="password"]{
+    border: 0;
+    margin: 20px auto;
+    background: none;
+    display: block;
+    font-family: 'sahel';
+    text-align: center;
+    border: 2px solid violet;
+    border-radius: 2rem;
+    padding: 10px;
+    width: 200px;
+    outline: none;
+    transition: 0.25s;
+    color: white;
+
+}
+
+.box input[type="text"]:focus, .box input[type="email"]:focus, .box input[type="password"]:focus{
+    width: 280px;
+    border-color: #03e9f4;
+}
+
+#signup {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid rgb(0, 180, 171);
+    border-radius: 24px;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    transition: 0.25s;
+    font-family: 'sahel';
+    width: 50px;
+    height: 20px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 5px;
+}
+
+#signup:hover {
+    background: #03e9f4;
+    color: white;
+    box-shadow: 0 0 15px #03e9f4;
+}
+
+#login {
+    text-decoration: none;
+    color: white;
+    font-size: 11px;
+    opacity: 60%;
+}
+
+#login:hover {
+    font-size: 13px;
+    text-shadow: 2px 2px 8px red;
+}
