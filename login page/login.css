@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body {
+
+    font-family: 'sahel';
+    background: #f857a6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ff5858, #f857a6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ff5858, #f857a6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    height: 100vh;
+}
+
+.box {
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #191919;
+    text-align: center;
+    border-radius: 2rem;
+}
+.box h1 {
+    font-weight: 500;
+    color: white;
+    font-family: 'lalezar';
+}
+.box input[type = "text"], .box input[type = "password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid violet;
+    
+    border-radius: 24px;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    transition: 0.25s;
+    font-family: 'sahel';
+}
+
+.box input[type = "text"]:focus, .box input[type = "password"]:focus {
+    border-color: #03e9f4;
+    width: 280px;
+
+
+}
+
+#login {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid rgb(0, 180, 171);
+    border-radius: 24px;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    transition: 0.25s;
+    font-family: 'sahel';
+    width: 50px;
+    height: 20px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 5px;
+
+}
+
+#login:hover {
+    background: #03e9f4;
+    color: #ffff;
+    box-shadow: 0 0 15px #03e9f4;
+    
+
+}
+
+#sign {
+    border: 0 ;
+    border-style: none;
+    color: white;
+    text-decoration: none;
+    opacity: 50%;
+    font-size: 11px;
+}
+
+#sign:hover {
+    font-size: 13px;
+    text-shadow: 2px 2px 8px red;
+}
